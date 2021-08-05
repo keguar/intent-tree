@@ -1,0 +1,562 @@
+[
+    {
+        "intent": "default",
+        "is_bot": false,
+        "phrases": [
+            "алло"
+        ],
+        "replies": [
+            {
+                "is_bot": true,
+                "phrases": [
+                    "алло здравствуйте"
+                ],
+                "replies": [
+                    {
+                        "intent": "default",
+                        "is_bot": false,
+                        "phrases": [
+                            "здравствуйте"
+                        ],
+                        "replies": [
+                            {
+                                "is_bot": true,
+                                "phrases": [
+                                    "меня зовут ирина звоню из компании рога и копыта скажите пожалуйста могу я у"
+                                ],
+                                "replies": [
+                                    {
+                                        "intent": "Repeat",
+                                        "is_bot": false,
+                                        "phrases": [
+                                            "что что ещё раз"
+                                        ],
+                                        "replies": [
+                                            {
+                                                "is_bot": true,
+                                                "phrases": [
+                                                    "меня зовут ирина звоню из компании рога и копыта я слышите меня"
+                                                ],
+                                                "replies": [
+                                                    {
+                                                        "intent": "Perplexity",
+                                                        "is_bot": false,
+                                                        "phrases": [
+                                                            "ага ну"
+                                                        ],
+                                                        "replies": [
+                                                            {
+                                                                "is_bot": true,
+                                                                "phrases": [
+                                                                    "могу я услышать петрова петра петровича"
+                                                                ],
+                                                                "replies": [
+                                                                    {
+                                                                        "intent": "Repeat",
+                                                                        "is_bot": false,
+                                                                        "phrases": [
+                                                                            "а кого ещё раз"
+                                                                        ],
+                                                                        "replies": [
+                                                                            {
+                                                                                "is_bot": true,
+                                                                                "phrases": [
+                                                                                    "петрова петра петровича"
+                                                                                ],
+                                                                                "replies": [
+                                                                                    {
+                                                                                        "intent": "I_dont_know",
+                                                                                        "is_bot": false,
+                                                                                        "phrases": [
+                                                                                            "не не знаю даже недавно симку купил"
+                                                                                        ],
+                                                                                        "replies": [
+                                                                                            {
+                                                                                                "is_bot": true,
+                                                                                                "phrases": [
+                                                                                                    "вы знаете такого да а как давно пользуетесь данной сим картой"
+                                                                                                ],
+                                                                                                "replies": [
+                                                                                                    {
+                                                                                                        "intent": "No_Deny",
+                                                                                                        "is_bot": false,
+                                                                                                        "phrases": [
+                                                                                                            "нет нет нет нет с октября наверное"
+                                                                                                        ],
+                                                                                                        "replies": [
+                                                                                                            {
+                                                                                                                "is_bot": true,
+                                                                                                                "phrases": [
+                                                                                                                    "с октября две тысячи восемнадцатого да"
+                                                                                                                ],
+                                                                                                                "replies": [
+                                                                                                                    {
+                                                                                                                        "intent": "Yes_Agree",
+                                                                                                                        "is_bot": false,
+                                                                                                                        "phrases": [
+                                                                                                                            "да да да да"
+                                                                                                                        ],
+                                                                                                                        "replies": [
+                                                                                                                            {
+                                                                                                                                "is_bot": true,
+                                                                                                                                "phrases": [
+                                                                                                                                    "угу я вас поняла извините за беспокойство тогда всего доброго до свидания"
+                                                                                                                                ],
+                                                                                                                                "replies": [
+                                                                                                                                    {
+                                                                                                                                        "intent": "Yes_Agree",
+                                                                                                                                        "is_bot": false,
+                                                                                                                                        "phrases": [
+                                                                                                                                            "до свидания да"
+                                                                                                                                        ],
+                                                                                                                                        "replies": []
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "is_bot": true,
+        "phrases": [
+            "Алло здравствуйте меня зовут ирина звонит компания рога и копыта скажите пожалуйста александров александрович александрович он знаком",
+            "Алло здравствуйте меня зовут ирина знает компания рога и копыта скажите пожалуйста нина валентиновна вам знакома",
+            "алло здравствуйте меня зовут ирина звоню",
+            "алло здравствуйте меня зовут ирина звоню из компании рога и копыта скажите пожалуйста петрушкина алина михайловна вам знакомы"
+        ],
+        "replies": [
+            {
+                "intent": "Not_interested",
+                "is_bot": false,
+                "phrases": [
+                    "а"
+                ],
+                "replies": [
+                    {
+                        "is_bot": true,
+                        "phrases": [
+                            "компания рога и копыта скажите пожалуйста"
+                        ],
+                        "replies": [
+                            {
+                                "intent": "Yes_Agree",
+                                "is_bot": false,
+                                "phrases": [
+                                    "алло алло я слушаю"
+                                ],
+                                "replies": [
+                                    {
+                                        "is_bot": true,
+                                        "phrases": [
+                                            "алло вы меня слышите здравствуйте"
+                                        ],
+                                        "replies": [
+                                            {
+                                                "intent": "IVR",
+                                                "is_bot": false,
+                                                "phrases": [
+                                                    "а здравствуйте вот сейчас решу"
+                                                ],
+                                                "replies": [
+                                                    {
+                                                        "is_bot": true,
+                                                        "phrases": [
+                                                            "хорошо меня зовут ирина звоню из компании рока и копыта скажите пожалуйста великая екатерина петровна вам знакома"
+                                                        ],
+                                                        "replies": [
+                                                            {
+                                                                "intent": "No_Deny",
+                                                                "is_bot": false,
+                                                                "phrases": [
+                                                                    "а нет нет нет нет"
+                                                                ],
+                                                                "replies": [
+                                                                    {
+                                                                        "is_bot": true,
+                                                                        "phrases": [
+                                                                            "не знакома скажите пожалуйста это в организацию мы дозвонились или на ваш личный номер телефона"
+                                                                        ],
+                                                                        "replies": [
+                                                                            {
+                                                                                "intent": "Where_you_get_my_number",
+                                                                                "is_bot": false,
+                                                                                "phrases": [
+                                                                                    "это домашний телефон у меня"
+                                                                                ],
+                                                                                "replies": [
+                                                                                    {
+                                                                                        "is_bot": true,
+                                                                                        "phrases": [
+                                                                                            "а это домашний я вас поняла"
+                                                                                        ],
+                                                                                        "replies": [
+                                                                                            {
+                                                                                                "intent": "I_dont_know",
+                                                                                                "is_bot": false,
+                                                                                                "phrases": [
+                                                                                                    "домашний телефон это женщины не знаю"
+                                                                                                ],
+                                                                                                "replies": [
+                                                                                                    {
+                                                                                                        "is_bot": true,
+                                                                                                        "phrases": [
+                                                                                                            "хорошо я вас поняла ошибка видимо у нас произошла всего доброго до свидания извините за беспокойство"
+                                                                                                        ],
+                                                                                                        "replies": [
+                                                                                                            {
+                                                                                                                "intent": "Yes_Agree",
+                                                                                                                "is_bot": false,
+                                                                                                                "phrases": [
+                                                                                                                    "угу угу до свидания"
+                                                                                                                ],
+                                                                                                                "replies": []
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "intent": "No_Deny",
+                "is_bot": false,
+                "phrases": [
+                    "Нет"
+                ],
+                "replies": [
+                    {
+                        "is_bot": true,
+                        "phrases": [
+                            "Скажите пожалуйста это в организацию вы дозвонились или на ваш личный номер"
+                        ],
+                        "replies": [
+                            {
+                                "intent": "Call_target",
+                                "is_bot": false,
+                                "phrases": [
+                                    "Вы дозвонились до организации главный бухгалтер если вы хотите что то узнать о наших сотрудников да непосредственно к сожалению так специальная информация я вам могу предложить созвониться с нашим отделом кадром которые скажет как чего потому что такие данные мы не можем подтверждать по телефону"
+                                ],
+                                "replies": [
+                                    {
+                                        "is_bot": true,
+                                        "phrases": [
+                                            "Хорошо будьте добры Набрать декада"
+                                        ],
+                                        "replies": [
+                                            {
+                                                "intent": "Yes_Agree",
+                                                "is_bot": false,
+                                                "phrases": [
+                                                    "Да сейчас минуточку Так запишите пожалуйста телефончик 9 9 9"
+                                                ],
+                                                "replies": [
+                                                    {
+                                                        "is_bot": true,
+                                                        "phrases": [
+                                                            "Угу Угу"
+                                                        ],
+                                                        "replies": [
+                                                            {
+                                                                "intent": "default",
+                                                                "is_bot": false,
+                                                                "phrases": [
+                                                                    "111"
+                                                                ],
+                                                                "replies": [
+                                                                    {
+                                                                        "is_bot": true,
+                                                                        "phrases": [
+                                                                            "Угу"
+                                                                        ],
+                                                                        "replies": [
+                                                                            {
+                                                                                "intent": "default",
+                                                                                "is_bot": false,
+                                                                                "phrases": [
+                                                                                    "0 6 11"
+                                                                                ],
+                                                                                "replies": [
+                                                                                    {
+                                                                                        "is_bot": true,
+                                                                                        "phrases": [
+                                                                                            "Хорошо спасибо вам большое"
+                                                                                        ],
+                                                                                        "replies": [
+                                                                                            {
+                                                                                                "intent": "Repeat",
+                                                                                                "is_bot": false,
+                                                                                                "phrases": [
+                                                                                                    "Пожалуйста всего доброго до свидания"
+                                                                                                ],
+                                                                                                "replies": [
+                                                                                                    {
+                                                                                                        "is_bot": true,
+                                                                                                        "phrases": [
+                                                                                                            "А Всего доброго"
+                                                                                                        ],
+                                                                                                        "replies": []
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "intent": "Repeat",
+                "is_bot": false,
+                "phrases": [
+                    "А еще раз откуда вы"
+                ],
+                "replies": [
+                    {
+                        "is_bot": true,
+                        "phrases": [
+                            "Рога и копыта общественной организации мы проводим социальный опрос граждан населения нашей стороны"
+                        ],
+                        "replies": [
+                            {
+                                "intent": "Perplexity",
+                                "is_bot": false,
+                                "phrases": [
+                                    "Ну знаю такого"
+                                ],
+                                "replies": [
+                                    {
+                                        "is_bot": true,
+                                        "phrases": [
+                                            "Знаете Ой не подскажете как мы лично можем связаться с александром александровичем"
+                                        ],
+                                        "replies": [
+                                            {
+                                                "intent": "Call_target",
+                                                "is_bot": false,
+                                                "phrases": [
+                                                    "А для чего"
+                                                ],
+                                                "replies": [
+                                                    {
+                                                        "is_bot": true,
+                                                        "phrases": [
+                                                            "Хотели бы с ним провести созданный вопрос по поводу повышения тарифа на жкх"
+                                                        ],
+                                                        "replies": [
+                                                            {
+                                                                "intent": "Transfer_to_operator",
+                                                                "is_bot": false,
+                                                                "phrases": [
+                                                                    "По поводу жилищного тарифа на жкх"
+                                                                ],
+                                                                "replies": [
+                                                                    {
+                                                                        "is_bot": true,
+                                                                        "phrases": [
+                                                                            "Да повышение"
+                                                                        ],
+                                                                        "replies": [
+                                                                            {
+                                                                                "intent": "IVR",
+                                                                                "is_bot": false,
+                                                                                "phrases": [
+                                                                                    "У него че есть своя квартира"
+                                                                                ],
+                                                                                "replies": [
+                                                                                    {
+                                                                                        "is_bot": true,
+                                                                                        "phrases": [
+                                                                                            "А я не знаю я не могу сказать но вы ее просто порекомендовали"
+                                                                                        ],
+                                                                                        "replies": [
+                                                                                            {
+                                                                                                "intent": "Perplexity",
+                                                                                                "is_bot": false,
+                                                                                                "phrases": [
+                                                                                                    "Ну"
+                                                                                                ],
+                                                                                                "replies": [
+                                                                                                    {
+                                                                                                        "is_bot": true,
+                                                                                                        "phrases": [
+                                                                                                            "Да"
+                                                                                                        ],
+                                                                                                        "replies": [
+                                                                                                            {
+                                                                                                                "intent": "Perplexity",
+                                                                                                                "is_bot": false,
+                                                                                                                "phrases": [
+                                                                                                                    "Ну потому что у него нет своей квартиры поэтому знаете"
+                                                                                                                ],
+                                                                                                                "replies": [
+                                                                                                                    {
+                                                                                                                        "is_bot": true,
+                                                                                                                        "phrases": [
+                                                                                                                            "Угу А контактного номера телефона у вас не имеется александра александровича"
+                                                                                                                        ],
+                                                                                                                        "replies": [
+                                                                                                                            {
+                                                                                                                                "intent": "No_Deny",
+                                                                                                                                "is_bot": false,
+                                                                                                                                "phrases": [
+                                                                                                                                    "Угу А Нет не не не надо"
+                                                                                                                                ],
+                                                                                                                                "replies": [
+                                                                                                                                    {
+                                                                                                                                        "is_bot": true,
+                                                                                                                                        "phrases": [
+                                                                                                                                            "Я вас поняла извините тогда за беспокойство нас всего вам доброго до свидания"
+                                                                                                                                        ],
+                                                                                                                                        "replies": [
+                                                                                                                                            {
+                                                                                                                                                "intent": "default",
+                                                                                                                                                "is_bot": false,
+                                                                                                                                                "phrases": [
+                                                                                                                                                    "До свидания до свидания"
+                                                                                                                                                ],
+                                                                                                                                                "replies": []
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "intent": "About_company",
+                "is_bot": false,
+                "phrases": [
+                    "кому вы звоните в какой организации"
+                ],
+                "replies": [
+                    {
+                        "is_bot": true,
+                        "phrases": [
+                            "но к сожалению указан организации я думал что мы наличные номер телефона дозвонились данного человека"
+                        ],
+                        "replies": [
+                            {
+                                "intent": "I_dont_know",
+                                "is_bot": false,
+                                "phrases": [
+                                    "не знаю какой же вид организации ну"
+                                ],
+                                "replies": [
+                                    {
+                                        "is_bot": true,
+                                        "phrases": [
+                                            "я вас говорю у нас не указано к сожалению организация вы можете сказать вам знаком данный человек или нет"
+                                        ],
+                                        "replies": [
+                                            {
+                                                "intent": "No_Deny",
+                                                "is_bot": false,
+                                                "phrases": [
+                                                    "я не хочу"
+                                                ],
+                                                "replies": [
+                                                    {
+                                                        "is_bot": true,
+                                                        "phrases": [
+                                                            "ну значит мы вам ещё раз перезвоним всего доброго до свидания"
+                                                        ],
+                                                        "replies": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
